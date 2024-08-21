@@ -1,0 +1,1825 @@
+html,
+body,
+div,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    flex-shrink: 0;
+    /* Prevent footer from shrinking */
+}
+
+.main {
+    flex-grow: 1;
+    /* Allow the main content to grow and take available space */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* Make sure the container takes at least the full viewport height */
+}
+
+/* styles.css */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.icons {
+    position: absolute;
+    top: 25px;
+    /* Increase this value */
+    right: 20px;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.fas {
+    margin-right: 15px;
+    /* Add some space between the icons and the edges */
+    font-size: 24px;
+    /* Adjust the icon size */
+}
+
+.icons a {
+    margin-right: 20px;
+    color: white;
+    font-size: 24px;
+}
+
+/* .main {
+    padding: 20px;
+} */
+
+.sidebar {
+    float: left;
+    width: 20%;
+    background-color: #f1f1f1;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 8px;
+    text-align: center;
+    background-color: #575757;
+    color: white;
+    margin-bottom: 7px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.metric-card,
+.notification {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+
+.profile-info {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: auto;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.icons i {
+    font-size: 24px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Feature Section */
+#features {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* About Us Section */
+#about-us {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/* Services Section */
+#services {
+    background-color: #e9e9e9;
+    padding: 20px;
+}
+
+.service-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: #d9d9d9;
+    padding: 20px;
+}
+
+.testimonial-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #c9c9c9;
+    padding: 20px;
+}
+
+/* Login Button */
+.login-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Extended styling */
+/* ... your previous CSS ... */
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.login-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Login Container */
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Registration Container */
+.registration-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Registration Button */
+.register-btn {
+    background-color: #4CAF50;
+    /* Green */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #45a049;
+}
+
+/* General styles for labels and inputs */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+/* Style for the register button */
+.register-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Container styling */
+.forgot-password-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.forgot-password-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.forgot-password-btn:hover {
+    background-color: #0056b3;
+}
+
+/* ... existing styles ... */
+
+/* Sidebar Styling */
+.sidebar {
+    float: left;
+    width: 20%;
+    background-color: #f9f9f9;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.sidebar a:hover {
+    background-color: #676d74;
+}
+
+/* Main content styling */
+main {
+    display: flex;
+}
+
+.dashboard-section {
+    width: 100%;
+    flex-grow: 1;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+
+    .sidebar,
+    .dashboard-section {
+        width: 100%;
+    }
+}
+
+
+.dashboard-section {
+    width: 100%;
+    flex-grow: 1;
+
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px;
+    background-color: #f9f9f9;
+}
+
+.dashboard-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.dashboard-section {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 16px;
+    background-color: #f9f9f9;
+}
+
+.dashboard-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+/* Extended styling */
+/* ... your previous CSS ... */
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.login-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Dashboard Container */
+#dashboard-container {
+    background-color: #f3f4f6;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Course List Styles */
+#course-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#course-list li {
+    background: #fff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Course Details */
+#course-details {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* Buttons */
+button {
+    background: #d3d3d3;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+/* Student Course Access Section */
+
+#course-access-list {
+    background: #f3f4f6;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.course-list {
+    list-style: none;
+    padding: 0;
+}
+
+.course-list li {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.access-button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style for the course list */
+.course-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.course-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.course-thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.course-details {
+    flex-grow: 1;
+}
+
+.course-title {
+    font-size: 1.2em;
+    margin-bottom: 8px;
+}
+
+.course-description {
+    font-size: 0.9em;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.course-progress {
+    margin-bottom: 8px;
+}
+
+progress {
+    width: 100%;
+    height: 10px;
+    margin-right: 10px;
+}
+
+.access-button {
+    background-color: #9ea8b4;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.access-button:hover {
+    background-color: #676d74;
+}
+
+/* Style for the exam management */
+.dashboard-section h2 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.upcoming-exam,
+.past-exam,
+.exam-resource {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.exam-date,
+.exam-score,
+.resource-link {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+.exam-button {
+    background-color: #f00;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.exam-button:hover {
+    background-color: #c00;
+}
+
+/* Dashboard Cards */
+.dashboard-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.dashboard-card:hover {
+    box-shadow: 0px 0px 12px 0px #aaa;
+}
+
+.dashboard-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.dashboard-card p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.dashboard-card a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.dashboard-card a:hover {
+    background-color: #676d74;
+}
+
+/* Course Access Page */
+
+.course-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.course-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.course-details {
+    flex-grow: 1;
+}
+
+.course-details h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.course-details p {
+    margin: 5px 0;
+}
+
+.access-button {
+    padding: 10px 20px;
+    background-color: #9ea8b4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.access-button:hover {
+    background-color: #9ea8b4;
+}
+
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content */
+main {
+    margin: 2rem;
+}
+
+.exam-list {
+    list-style: none;
+    padding: 0;
+}
+
+.exam-item {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.exam-details h3 {
+    margin-top: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* ... (Same as before) */
+
+.take-exam-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.take-exam-button:hover {
+    background-color: #0056b3;
+}
+
+.countdown {
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.exams-section {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+.exam-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 8px;
+    /* This sets the gap between the cards */
+}
+
+.exam-card {
+    flex: 0 0 calc(33.33% - 16px);
+    /* This will make it 3 cards in a row */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 4px;
+}
+
+.take-exam-button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.take-exam-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for past exams page */
+.past-exams-section {
+    padding: 10px;
+    background-color: #e6e6e6;
+}
+
+.past-exam-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.past-exam-card {
+    flex: 0 0 calc(20% - 8px);
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.review-exam-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.review-exam-button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for exam resources page */
+.exam-resources-section {
+    padding: 20px;
+    background-color: #f5f5f5;
+    max-height: 80vh;
+    overflow-y: auto;
+    /* Enable vertical scroll */
+}
+
+.exam-resource-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.exam-resource-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.exam-resource-content {
+    flex: 0 0 80%;
+}
+
+.download-resource-button {
+    flex: 0 0 18%;
+    background-color: #9ea8b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.download-resource-button:hover {
+    background-color: #676d74;
+}
+
+.exam-resource-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.exam-resource-title {
+    font-weight: bold;
+    font-size: 1.2em;
+    flex: 1;
+}
+
+.exam-resource-info {
+    flex: 2;
+}
+
+.exam-resource-key {
+    flex: 1;
+    font-weight: bold;
+}
+
+.exam-resource-value {
+    flex: 2;
+}
+
+.performance-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.metrics-overview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.metric-card {
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.detailed-performance {
+    margin-top: 20px;
+}
+
+.instructor-section {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.instructor-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    flex: 1;
+    min-width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.menu-item h3 {
+    margin-bottom: 20px;
+}
+
+.add-course-section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#add-course-form label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+#add-course-form input,
+#add-course-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-course-button {
+    background-color: #676d74;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-course-button:hover {
+    background-color: #5c6169;
+}
+
+.exam-scheduling-section {
+    margin: 2em auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 50%;
+    /* Set width to control form size */
+    text-align: center;
+    /* Align text in the center */
+}
+
+.exam-scheduling-section form {
+    display: inline-block;
+    /* Make form inline to center it */
+    text-align: left;
+    /* Return text alignment to normal inside form */
+}
+
+.exam-scheduling-section label,
+.exam-scheduling-section input,
+.exam-scheduling-section textarea,
+.exam-scheduling-section button {
+    display: block;
+    margin: 10px auto;
+    /* Center items */
+    width: 90%;
+    /* Stop the overlapping */
+}
+
+.exam-scheduling-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.exam-scheduling-section select {
+    padding: 10px;
+    width: 90%;
+    /* To keep it consistent with other form elements */
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.admin-section {
+    text-align: center;
+    margin: 2rem;
+}
+
+.admin-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.admin-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 30%;
+    margin: 1rem;
+}
+
+.admin-card button {
+    margin-top: 1rem;
+    background-color: #676d74;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.admin-card button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.course-management {
+    text-align: center;
+    margin: 2rem;
+}
+
+.course-list {
+    list-style-type: none;
+}
+
+.course-list li {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.course-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-actions button {
+    margin-top: 1rem;
+    background-color: #676d74;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.course-actions button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.user-management {
+    text-align: center;
+    margin: 2rem;
+}
+
+.user-list {
+    list-style-type: none;
+}
+
+.user-list li {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.user-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.user-actions button {
+    margin-top: 1rem;
+    background-color: #676d74;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.user-actions button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.exam-management {
+    text-align: center;
+    margin: 2rem;
+}
+
+.exam-list {
+    list-style-type: none;
+}
+
+.exam-list li {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.exam-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.exam-actions button {
+    margin-top: 1rem;
+    background-color: #676d74;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.exam-actions button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.metrics-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.metric-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 300px;
+    text-align: left;
+}
+
+.metric-card h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.metric-card p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+/* Chat View Styling */
+.chat-container {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding-bottom: 70px;
+    /* Adjust as per your needs */
+}
+
+.message-input {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    /* add other styling options as needed */
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.chat-message {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.chat-message.sent {
+    background-color: #676d74;
+    color: white;
+    margin-left: auto;
+}
+
+.chat-message.received {
+    background-color: #f1f1f1;
+    margin-right: auto;
+}
+
+.message-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.send-button {
+    background-color: #676d74;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* Additional Styles */
+}
+
+/* Ensure all sections under main are also in a column */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.program_coordinator {
+    background-color: #ffcc00;
+    /* A standout yellow background */
+    color: #333;
+    /* Dark text for readability */
+    border: 2px solid #ff6600;
+    /* An orange border */
+    border-radius: 8px;
+    /* Rounded corners */
+    padding: 16px;
+    /* Comfortable padding */
+    font-weight: bold;
+    /* Bold text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* A subtle shadow */
+    transition: all 0.3s ease;
+    /* Transition for hover effect */
+}
+
+.program_coordinator:hover {
+    background-color: #ff9900;
+    /* Darken background on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    /* A more pronounced shadow on hover */
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+}
+
+/* Navigation Styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Section */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Individual Sections */
+main section {
+    width: 100%;
+    max-width: 100%;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+
+}
+
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+textarea {
+    width: 80%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color and some padding around the whole page */
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+nav ul li {
+    float: left;
+    display: inline;
+    padding: 14px 16px;
+}
+
+/* Style the main content */
+main {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+/* Style sections */
+section {
+    margin-bottom: 20px;
+}
+
+/* Style the submit button */
+button#submit-review {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#submit-review:hover {
+    background-color: #0056b3;
+}
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background color and some padding around the whole page */
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+}
+
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Style the update button */
+button#update-performance {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#update-performance:hover {
+    background-color: #0056b3;
+}
+
+body,
+h1,
+h2,
+ul,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+
+.chart span {
+    display: inline-block;
+    width: 30px;
+    margin-right: 4px;
+    background-color: #007BFF;
+    vertical-align: bottom;
+}
+
+button#update-decisions {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#update-decisions:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+main {
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+
+/* Quality Processes Specific Styles */
+#overview {
+    font-style: italic;
+}
+
+#compliance-matrix {
+    background-color: #e6f7ff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+#compliance-chart {
+    height: 300px;
+    background-color: #ccc;
+    /* Placeholder color */
+}
+
+#faqs {
+    margin-top: 20px;
+}
+
+#faqs dl {
+    margin-left: 30px;
+}
+
+/* To ensure it spans the entire width */
+#quality-processes {
+    width: 100%;
+    display: block;
+
+}
+
+/* Styling the form groups */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Styling the textarea */
+textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    resize: vertical;
+}
+
+/* Styling the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* General form group styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style the checkboxes */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Styling the textarea */
+textarea {
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    resize: vertical;
+}
+
+/* Styling the button */
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Filters section */
+#filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* KPIs */
+.kpi {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Data Visualization */
+#data-visualization {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Recommendations */
+#recommendations ul {
+    list-style: disc;
+    margin-left: 40px;
+}
+
+/* Common for Registration and Profile */
+.registration-container,
+.profile-container {
+    width: 400px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Profile Specific */
+.profile-info label,
+.profile-info p {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 45%;
+}
+
+.edit-btn {
+    display: block;
+    margin-top: 20px;
+}
+
+/* Feedback Form Specific */
+.feedback-container {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.feedback-btn {
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.chart-section {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#performancePieChart {
+    width: 300px;
+    height: 300px;
+}
+
+.exam-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.exam-card h3 {
+    margin-top: 0;
+}
+
+.exam-card p {
+    margin: 5px 0;
+}
+
+.exam-card button {
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+}
+.strategic-form {
+    width: 80%;
+    margin: 10%;
+}

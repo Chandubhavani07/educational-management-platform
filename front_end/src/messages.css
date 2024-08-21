@@ -1,0 +1,124 @@
+/* messages.css */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    /* Changed from column to row */
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.user-list {
+    width: 300px;
+    /* Fixed width for user list */
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+.message-list {
+    list-style: none;
+    padding: 0;
+}
+
+.message-item {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s;
+}
+
+.message-item.active {
+    background-color: #e9ecef;
+}
+
+.message-item:hover {
+    background-color: #f1f1f1;
+}
+
+.message {
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.my-message {
+    text-align: right;
+    background-color: #dcf8c6;
+}
+
+.other-message {
+    text-align: left;
+    background-color: #e2e2e2;
+}
+
+.message-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 300px;
+    /* Adjusted to account for the user list width */
+    right: 0;
+    background-color: white;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.message-input input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.message-input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.message-input button:hover {
+    background-color: #0056b3;
+}
+
+.chat-display {
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    overflow: hidden;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+.chat-messages {
+    flex-grow: 1;
+    overflow-y: auto;
+    padding-bottom: 10px;
+    margin-bottom: 60px;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}
